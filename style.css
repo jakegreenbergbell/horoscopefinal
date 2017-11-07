@@ -1,0 +1,29 @@
+p {
+    text-align: center;
+    color: magenta;
+}
+body{
+    background: darkgrey;
+}
+#horoscope {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 20%;
+    width: 10%;
+}
+#horoscope1{
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    left: 30px;
+    top: 30px;
+}
+
+
+#border{
+    border-style: double;
+    display: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
