@@ -57,8 +57,8 @@ function determineSign() {
         var selectedDay = 0 + "" + document.getElementById("selectDay").value;
         }
     console.log(document.getElementById("yourName").value);
-    horoscopeArray = [0,"Capricorn", 120, "Aquarius", 218, "Pisces", 321, "Aries", 420, "Taurus", 521,
-        "Gemini", 621, "Cancer", 723, "Leo", 823, "Virgo", 923, "Libra", 1023, "Scorpio", 1122, "Sagittarius", 1222, "Capricorn", 1240];
+    horoscopeArray = [0,"capricorn", 120, "aquarius", 218, "pisces", 321, "aries", 420, "taurus", 521,
+        "gemini", 621, "cancer", 723, "leo", 823, "virgo", 923, "libra", 1023, "scorpio", 1122, "sagittarius", 1222, "capricorn", 1240];
     var monthDayCombined = selectedMonth + selectedDay;
     var sign;
     console.log("hi");
